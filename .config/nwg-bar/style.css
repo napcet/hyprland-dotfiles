@@ -1,0 +1,33 @@
+window {
+    background-color: rgba(0, 0, 0, 0); /* Fundo totalmente transparente */
+}
+
+#outer-box {
+    margin: 0px;
+}
+
+#inner-box {
+    background-color: rgba(20, 20, 20, 0.85); /* Caixa interna com leve transparência */
+    border-radius: 20px;
+    border: 2px solid rgba(100, 149, 237, 0.6); /* Borda azul */
+    padding: 15px;
+    margin: 10px;
+}
+
+button, image {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+button {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: rgba(100, 149, 237, 0.2); /* Hover azul */
+}
+
