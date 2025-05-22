@@ -1,0 +1,5 @@
+google-chrome
+hyprshot
+visual-studio-code-bin
+yay
+yay-debug
