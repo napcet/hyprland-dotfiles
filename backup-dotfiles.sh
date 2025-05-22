@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 📂 Pasta destino do backup
-DEST=~/Dev/napcet-hyprland-dotfiles
+DEST=~/Dev/hyprland-dotfiles
 
 # 🕓 Data e hora atual para log
 DATA=$(date +"%Y-%m-%d_%H-%M-%S")

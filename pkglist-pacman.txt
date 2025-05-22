@@ -25,6 +25,7 @@ micro
 nemo
 neovim
 networkmanager
+noto-fonts-emoji
 nwg-bar
 nwg-drawer
 nwg-look

@@ -8,6 +8,19 @@
   "separate-outputs": true,
   "icon": true
 },    
+"hyprland/workspaces": {
+    "format": "{name} {icon}",
+    "on-click": "activate",
+    "format-icons": {
+        "active": "",
+        "default": ""
+    },
+    "persistent-workspaces": {
+        "*": [1, 2, 3, 4]
+    },
+    "sort-by-number": true
+},
+
     "network": {
         "format-wifi": "{essid} ({signalStrength}%) ",
         "format-ethernet": "{ifname} ",

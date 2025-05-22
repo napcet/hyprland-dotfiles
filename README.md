@@ -1,5 +1,4 @@
-
-# 🧠 napcet-hyprland-dotfiles
+# 🧠 hyprland-dotfiles
 
 Backup e gerenciamento dos meus **dotfiles** e configuração pessoal do Arch Linux com o window manager **Hyprland**, além de ferramentas, barras, launchers e ambientes Wayland.
 
@@ -12,31 +11,33 @@ Este repositório serve para:
 ---
 
 ## 💻 **Distribuição**
+
 - Arch Linux 🐧
 
 ## 🎨 **Ambiente**
+
 - **Wayland** + **Hyprland**
 
 ---
 
 ## 🛠️ **Principais Ferramentas e Apps**
 
-| Tipo               | Aplicativos / Ferramentas                      |
-|--------------------|-------------------------------------------------|
-| Window Manager     | Hyprland                                        |
-| Barra              | Waybar                                          |
-| Launcher           | Wofi, nwg-drawer                                |
-| Notificações       | SwayNC                                          |
-| Lock / Idle        | Hyprlock, Hypridle                              |
-| Polkit Agent       | Hyprpolkitagent                                 |
-| Gerenciador de Arquivos | Nemo                                       |
-| Terminal           | Kitty                                           |
-| Editor             | Neovim, Micro, Visual Studio Code               |
-| Navegador          | Google Chrome                                   |
-| Estética GTK       | nwg-look                                        |
-| Dock               | nwg-bar                                         |
-| Captura de tela    | Swappy, Hyprshot                                |
-| Som e Pipewire     | WirePlumber, Pipewire                           |
+| Tipo                    | Aplicativos / Ferramentas         |
+| ----------------------- | --------------------------------- |
+| Window Manager          | Hyprland                          |
+| Barra                   | Waybar                            |
+| Launcher                | Wofi, nwg-drawer                  |
+| Notificações            | SwayNC                            |
+| Lock / Idle             | Hyprlock, Hypridle                |
+| Polkit Agent            | Hyprpolkitagent                   |
+| Gerenciador de Arquivos | Nemo                              |
+| Terminal                | Kitty                             |
+| Editor                  | Neovim, Micro, Visual Studio Code |
+| Navegador               | Google Chrome                     |
+| Estética GTK            | nwg-look                          |
+| Dock                    | nwg-bar                           |
+| Captura de tela         | Swappy, Hyprshot                  |
+| Som e Pipewire          | WirePlumber, Pipewire             |
 
 ---
 
@@ -78,6 +79,7 @@ Execute o script para atualizar o backup dos seus arquivos locais:
 ```
 
 O script:
+
 - 🗂️ Copia todos os arquivos e configurações relevantes.
 - 🔄 Atualiza automaticamente a lista de pacotes instalados (Pacman e AUR).
 - 🕓 Gera um log de cada backup no arquivo `backup-log.txt`.
@@ -121,6 +123,7 @@ Se quiser sugerir melhorias, pode abrir um **issue** ou enviar um **pull request
 ---
 
 ## ⚠️ **Atenção**
+
 - Este repositório é desenvolvido para meu uso pessoal em Arch Linux com Hyprland.
 - Pode não funcionar 100% em outros ambientes ou distros sem ajustes.
 
