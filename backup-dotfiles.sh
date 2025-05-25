@@ -21,6 +21,7 @@ dirs=(
     swaync
     wofi
     hyprpaper
+    hyprpanel
     hyprlock
     hypridle
     nwg-look

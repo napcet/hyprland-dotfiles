@@ -116,6 +116,12 @@ Este repositório não é um framework de instalação, mas sim uma referência 
 
 ---
 
+## 🗒️ Lista de Tarefas
+
+Veja a lista de pendências no arquivo [TODO.md](TODO.md).
+
+---
+
 ## 🤝 **Contribuição**
 
 Se quiser sugerir melhorias, pode abrir um **issue** ou enviar um **pull request**. 😉
