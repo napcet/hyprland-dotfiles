@@ -1,0 +1,14 @@
+show = drun
+prompt =  Buscar...
+columns = 1
+lines = 8
+insensitive = true
+allow_markup = true
+hide_scroll = false
+no_actions = true
+term = kitty
+width = 500
+height = 600
+location = center
+allow_images = true
+

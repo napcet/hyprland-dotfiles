@@ -6,45 +6,58 @@
     border-radius: 20px;
 }
 
-window {
-	/*font-weight: bold;*/
-}
 window#waybar {
-    background: rgba(0,0,0,0);
+    background: rgba(0, 0, 0, 0);
 }
-/*-----module groups----*/
-.modules-right {
-	background-color: rgba(0,43,51,0.85);
-    margin: 2px 10px 0 0;
-}
+
+/* ----- Grupos ----- */
+.modules-left, 
+.modules-right, 
 .modules-center {
-    margin: 2px 0 0 0;
+    margin: 5px 10px 5px 5px;
+    border-radius: 12px;
+    background: linear-gradient(45deg, #172554, #0f172a);
+    /*background: linear-gradient(45deg, #2563eb, #1e40af);*/
 }
-.modules-left {
-    margin: 2px 0 0 5px;
-	background-color: rgba(0,119,179,0.6);
+
+/* Centro apenas texto sem fundo */
+.modules-center {
+    background: transparent;
 }
-/*-----modules indv----*/
+
+.modules-center * {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+/* Espaçamento interno dos itens */
+.modules-left > *,
+.modules-right > * {
+    padding: 4px 8px;
+}
+
+/* ----- Workspaces ----- */
 #workspaces button {
     padding: 1px 5px;
     background-color: transparent;
 }
+
 #workspaces button:hover {
-    box-shadow: inherit;
-	background-color: rgba(0,153,153,1);
+    background: rgba(37, 99, 235, 0.4);
 }
 
 #workspaces button.focused {
-	background-color: rgba(0,43,51,0.85);
+    background: linear-gradient(45deg, #2563eb, #1e40af);
 }
 
+/* ----- Módulos Individuais ----- */
 #clock,
 #battery,
 #cpu,
 #memory,
 #temperature,
 #network,
-#pulseaudio,
+#wireplumber,
 #custom-media,
 #tray,
 #mode,
@@ -53,39 +66,41 @@ window#waybar {
 #idle_inhibitor {
     padding: 0 10px;
 }
+
 #mode {
     color: #cc3436;
     font-weight: bold;
 }
+
 #custom-power {
-    background-color: rgba(0,119,179,0.6);
+    background-color: rgba(0, 119, 179, 0.6);
     border-radius: 100px;
     margin: 5px 5px;
     padding: 1px 1px 1px 6px;
 }
-/*-----Indicators----*/
+
+/* ----- Indicadores ----- */
 #idle_inhibitor.activated {
     color: #2dcc36;
 }
-#pulseaudio.muted {
+
+#wireplumber.muted {
     color: #cc3436;
 }
+
 #battery.charging {
     color: #2dcc36;
 }
+
 #battery.warning:not(.charging) {
-	color: #e6e600;
+    color: #e6e600;
 }
+
 #battery.critical:not(.charging) {
     color: #cc3436;
 }
+
 #temperature.critical {
     color: #cc3436;
 }
-/*-----Colors----*/
-/*
- *rgba(0,85,102,1),#005566 --> Indigo(dye)
- *rgba(0,43,51,1),#002B33 --> Dark Green 
- *rgba(0,153,153,1),#009999 --> Persian Green 
- *
- */
+

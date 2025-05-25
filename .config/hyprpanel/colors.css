@@ -1,0 +1,9 @@
+@define-color primary {primary};
+@define-color onPrimary {on_primary};
+@define-color secondary {secondary};
+@define-color onSecondary {on_secondary};
+@define-color background {background};
+@define-color onBackground {on_background};
+@define-color surface {surface};
+@define-color onSurface {on_surface};
+
