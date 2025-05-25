@@ -8,11 +8,13 @@ cinnamon-translations
 dolphin
 efibootmgr
 eog
+fastfetch
 ffmpegthumbs
 fuzzel
 gedit
 gimp
 git
+gnome-calculator
 gnome-themes-extra
 go
 gst-plugin-pipewire

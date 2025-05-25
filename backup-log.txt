@@ -44,3 +44,16 @@
 📜 [2025-05-25_14-51-50] Copiando arquivos do diretório home
 📦 [2025-05-25_14-51-50] Gerando lista de pacotes Pacman e AUR...
 ✅ [2025-05-25_14-51-50] Backup finalizado com sucesso em /home/nahuel/Dev/hyprland-dotfiles
+🔧 [2025-05-25_16-22-12] Iniciando backup...
+📁 [2025-05-25_16-22-12] Copiando hypr
+📁 [2025-05-25_16-22-12] Copiando waybar
+📁 [2025-05-25_16-22-12] Copiando wofi
+📁 [2025-05-25_16-22-12] Copiando hyprpanel
+📁 [2025-05-25_16-22-12] Copiando nwg-look
+📁 [2025-05-25_16-22-12] Copiando nwg-bar
+📁 [2025-05-25_16-22-12] Copiando nwg-drawer
+📁 [2025-05-25_16-22-12] Copiando kitty
+📁 [2025-05-25_16-22-12] Copiando micro
+📜 [2025-05-25_16-22-12] Copiando arquivos do diretório home
+📦 [2025-05-25_16-22-12] Gerando lista de pacotes Pacman e AUR...
+✅ [2025-05-25_16-22-12] Backup finalizado com sucesso em /home/nahuel/Dev/hyprland-dotfiles
