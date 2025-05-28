@@ -41,5 +41,6 @@ libastal-wireplumber-git-debug
 libcava
 libcava-debug
 visual-studio-code-bin
+waybar-updates
 yay
 yay-debug
