@@ -1,14 +1,14 @@
 {
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["tray", "custom/scratchpad-indicator", "wireplumber", "clock", "idle_inhibitor", "custom/power"],
-    //"modules-right": ["tray", "custom/scratchpad-indicator", "pulseaudio", "clock", "idle_inhibitor", "custom/power"],
-
+    "modules-right": ["tray", "custom/scratchpad-indicator", "network", "wireplumber", "clock", "idle_inhibitor", "custom/power"],
+    
 "hyprland/window": {
   "max-length": 100, // Characters count
   "separate-outputs": true,
   "icon": true
 },    
+
 "hyprland/workspaces": {
     "format": "{name} {icon}",
     "on-click": "activate",
@@ -24,10 +24,12 @@
 
     "network": {
         "format-wifi": "{essid} ({signalStrength}%) ",
-        "format-ethernet": "{ifname} ",
-        "format-disconnected": "", 
+        "format-ethernet": "{ifname} 󰌘",
+        "format-disconnected": "󰌙", 
         "max-length": 50,
-        "on-click": "kitty -e 'nmtui'"
+//        "on-click": "kitty -e 'nmtui'"
+        "on-click": "nm-connection-editor"
+        
     },
     "idle_inhibitor": {
         "format": "{icon}",

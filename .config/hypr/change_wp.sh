@@ -7,12 +7,14 @@ walldir="$HOME/Imagens/wallpapers"
 monitor=$(hyprctl monitors | awk '/Monitor/ {print $2}')
 
 # 🎨 Escolhe uma imagem aleatória
-img=$(find "$walldir" -type f | shuf -n 1)
+#img=$(find "$walldir" -type f | shuf -n 1)
+# 🎨 Escolhe uma imagem aleatória (somente imagens)
+img=$(find "$walldir" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" -o -iname "*.bmp" \) | shuf -n 1)
 
 # 🖼️ Define o wallpaper com Hyprpaper
 hyprctl hyprpaper preload "$img"
 hyprctl hyprpaper wallpaper "$monitor,$img"
-sleep 1
+sleep 0.5
 hyprctl hyprpaper unload unused
 
 # 🌈 Gera esquema de cores com Matugen

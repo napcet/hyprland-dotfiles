@@ -26,10 +26,15 @@ dirs=(
     hypridle
     nwg-look
     nwg-bar
+    nwg-dock
     nwg-drawer
     kitty
     neovim
     micro
+    gtk-3.0
+    gtk-4.0
+    qt5ct
+    qt6ct
 )
 
 # 🚀 Copiar configurações
