@@ -10,16 +10,6 @@
         "icon": "/usr/share/nwg-bar/images/system-log-out.svg"
     },
     {
-        "label": "Reiniciar",
-        "exec": "systemctl reboot",
-        "icon": "/usr/share/nwg-bar/images/system-reboot.svg"
-    },
-    {
-        "label": "Desligar",
-        "exec": "systemctl poweroff",
-        "icon": "/usr/share/nwg-bar/images/system-shutdown.svg"
-    },
-    {
         "label": "Suspender",
         "exec": "systemctl suspend",
         "icon": "/usr/share/nwg-bar/images/system-suspend.svg"
@@ -28,6 +18,16 @@
         "label": "Hibernar",
         "exec": "systemctl hibernate",
         "icon": "/usr/share/nwg-bar/images/system-hibernate.svg"
+    },
+    {
+        "label": "Reiniciar",
+        "exec": "systemctl reboot",
+        "icon": "/usr/share/nwg-bar/images/system-reboot.svg"
+    },
+    {
+        "label": "Desligar",
+        "exec": "systemctl poweroff",
+        "icon": "/usr/share/nwg-bar/images/system-shutdown.svg"
     }
 ]
 
