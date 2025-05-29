@@ -6,6 +6,13 @@
 - [ ] configurar meu arquivo zshrc para backup
 - [ ] configurar calendario no waybar
 - [ ] configurar limite de volume no waybar
+- [ ] Instalar e testar com pcmanfm-qt
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
 
 ---
 
