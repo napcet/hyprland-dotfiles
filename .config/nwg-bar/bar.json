@@ -1,32 +1,33 @@
 [
     {
-        "label": "Lock",
+        "label": "Bloquear",
         "exec": "hyprlock",
         "icon": "/usr/share/nwg-bar/images/system-lock-screen.svg"
     },
     {
-        "label": "Logout",
+        "label": "Encerrar sessão",
         "exec": "hyprctl dispatch exit",
         "icon": "/usr/share/nwg-bar/images/system-log-out.svg"
     },
     {
-        "label": "Reboot",
+        "label": "Reiniciar",
         "exec": "systemctl reboot",
         "icon": "/usr/share/nwg-bar/images/system-reboot.svg"
     },
     {
-        "label": "Shutdown",
+        "label": "Desligar",
         "exec": "systemctl poweroff",
         "icon": "/usr/share/nwg-bar/images/system-shutdown.svg"
     },
     {
-        "label": "Suspend",
+        "label": "Suspender",
         "exec": "systemctl suspend",
         "icon": "/usr/share/nwg-bar/images/system-suspend.svg"
     },
     {
-        "label": "Hibernate",
+        "label": "Hibernar",
         "exec": "systemctl hibernate",
         "icon": "/usr/share/nwg-bar/images/system-hibernate.svg"
     }
 ]
+
