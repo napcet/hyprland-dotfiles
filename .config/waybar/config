@@ -23,7 +23,7 @@
 },
 
 "custom/pacman": {
-  "format": "{icon}{0}",
+  "format": "{icon} {0}",
   "return-type": "json",
   "format-icons": {
     "pending-updates": " ",
@@ -35,7 +35,8 @@
 
     "network": {
         "format-wifi": "{essid} ({signalStrength}%) ",
-        "format-ethernet": "{ifname} 󰌘",
+//        "format-ethernet": "{ifname} 󰌘",
+        "format-ethernet": "󰌘",
         "format-disconnected": "󰌙", 
         "max-length": 50,
 //        "on-click": "kitty -e 'nmtui'"
@@ -79,7 +80,7 @@
 
     "wireplumber": {
     "format": "{volume}% {icon}",
-    "format-muted": " {icon} (Mudo)",
+    "format-muted": " {icon}",
     "format-icons": ["", "", ""],
     "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
     "on-click-right": "pavucontrol",

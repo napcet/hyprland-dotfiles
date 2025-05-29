@@ -39,6 +39,7 @@ libpulse
 libva-intel-driver
 linux
 linux-firmware
+lxappearance
 micro
 nano
 nemo

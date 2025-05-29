@@ -124,3 +124,26 @@
 📜 [2025-05-28_00-01-50] Copiando arquivos do diretório home
 📦 [2025-05-28_00-01-50] Gerando lista de pacotes Pacman e AUR...
 ✅ [2025-05-28_00-01-50] Backup finalizado com sucesso em /home/nahuel/Dev/hyprland-dotfiles
+🔧 [2025-05-28_22-43-26] Iniciando backup...
+📁 [2025-05-28_22-43-26] Copiando hypr
+📁 [2025-05-28_22-43-26] Copiando waybar
+📁 [2025-05-28_22-43-26] Copiando wofi
+📁 [2025-05-28_22-43-26] Copiando hyprpanel
+📁 [2025-05-28_22-43-26] Copiando nwg-look
+📁 [2025-05-28_22-43-26] Copiando nwg-bar
+📁 [2025-05-28_22-43-26] Copiando nwg-dock
+📁 [2025-05-28_22-43-26] Copiando nwg-drawer
+📁 [2025-05-28_22-43-26] Copiando kitty
+📁 [2025-05-28_22-43-26] Copiando nvim
+📁 [2025-05-28_22-43-26] Copiando micro
+📁 [2025-05-28_22-43-26] Copiando gtk-3.0
+📁 [2025-05-28_22-43-26] Copiando gtk-4.0
+📁 [2025-05-28_22-43-26] Copiando qt5ct
+📁 [2025-05-28_22-43-26] Copiando qt6ct
+📁 [2025-05-28_22-43-26] Copiando btop
+📁 [2025-05-28_22-43-26] Copiando fastfetch
+📁 [2025-05-28_22-43-26] Copiando xdg-desktop-portal
+📁 [2025-05-28_22-43-26] Copiando eog
+📜 [2025-05-28_22-43-26] Copiando arquivos do diretório home
+📦 [2025-05-28_22-43-26] Gerando lista de pacotes Pacman e AUR...
+✅ [2025-05-28_22-43-26] Backup finalizado com sucesso em /home/nahuel/Dev/hyprland-dotfiles

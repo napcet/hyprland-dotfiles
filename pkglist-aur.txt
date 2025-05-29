@@ -40,6 +40,8 @@ libastal-wireplumber-git
 libastal-wireplumber-git-debug
 libcava
 libcava-debug
+pyprland
+pyprland-debug
 visual-studio-code-bin
 waybar-updates
 yay

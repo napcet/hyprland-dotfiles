@@ -30,11 +30,16 @@ dirs=(
     nwg-drawer
     kitty
     neovim
+    nvim
     micro
     gtk-3.0
     gtk-4.0
     qt5ct
     qt6ct
+    btop
+    fastfetch
+    xdg-desktop-portal
+    eog
 )
 
 # 🚀 Copiar configurações
