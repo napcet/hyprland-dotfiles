@@ -2,8 +2,10 @@
 
 ## 📌 Pendências e Melhorias
 
+- [x] colocar arquivo change_wp.sh no script de backup
 - [ ] configurar meu arquivo zshrc para backup
-- [ ] colocar arquivo change_wp.sh no script de backup
+- [ ] configurar calendario no waybar
+- [ ] configurar limite de volume no waybar
 
 ---
 
