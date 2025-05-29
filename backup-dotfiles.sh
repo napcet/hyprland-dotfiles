@@ -40,6 +40,7 @@ dirs=(
     fastfetch
     xdg-desktop-portal
     eog
+    pyprland
 )
 
 # 🚀 Copiar configurações

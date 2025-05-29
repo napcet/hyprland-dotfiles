@@ -1,0 +1,10 @@
+[windowrules]
+[[windowrules.rules]]
+match = { class = "Code", title = "Visual Studio Code" }
+condition = "window.size[0] < 500 and window.size[1] < 200"
+actions = [
+  "float",
+  "move 30 30",
+  "resize 500 300"
+]
+
