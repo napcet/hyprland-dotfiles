@@ -120,3 +120,51 @@ window#waybar {
 	animation-duration: 3s;
 }
 
+/* Reset básico para todos os botões */
+#workspaces button {
+    padding: 0.3em 0.6em;
+    margin: 0 3px;
+    background: transparent;
+    color: #999999;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+/* Workspaces vazios: quase invisíveis */
+#workspaces button.empty {
+    color: #444444;
+    font-style: normal;
+}
+
+/* Workspaces com janelas abertas (ocupados) */
+#workspaces button:not(.empty):not(.active):not(.urgent) {
+    color: #ffffff;
+    border-bottom: 2px solid #4f46e5; /* Indigo */
+}
+
+/* Workspace ativo */
+#workspaces button.active {
+    color: #ffffff;
+    font-weight: bold;
+    border-bottom: 2px solid #22d3ee; /* Cyan */
+}
+
+/* Workspace urgente */
+#workspaces button.urgent {
+    color: #ff5555;
+    font-weight: bold;
+    border-bottom: 2px solid #ff5555;
+}
+
+/* Workspace visível (em outro monitor) */
+#workspaces button.visible {
+    color: #7dd3fc;
+}
+
+/* Hover (opcional, discreto) */
+#workspaces button:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+
