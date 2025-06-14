@@ -138,3 +138,9 @@ Se quiser sugerir melhorias, pode abrir um **issue** ou enviar um **pull request
 ## 🏗️ **Licença**
 
 Este projeto está licenciado sob a **MIT License** — veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+## Comando autualmente utilziado
+
+```
+yain hyprland waybar wofi swaync hyprlock hypridle hyprpolkitagent kitty swappy hyprshot firefox xdg-desktop-portal-hyprland hyprland-qt-support hyprcursor hyprsysteminfo hyprsunset hyprpicker hyprpaper
+``
